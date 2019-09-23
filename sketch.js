@@ -39,6 +39,9 @@ function human(x, y) {
   //leg
   line(x-10, y+100, x-10, y+180);
   line(x+10, y+100, x+10, y+180);
+  //shadow
+  fill(200);
+  ellipse(x, y+180, 40, 20);
   //left hand
   line(x-9, y+40, x-30, y+90);
   //body
