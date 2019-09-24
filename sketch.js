@@ -4,6 +4,7 @@ var ay = [];
 
 function setup() {
   createCanvas(900, 600);
+  frameRate(300;
   for (var i=0; i<num; i++) {
     ax[i] = width/2;
     ay[i] = height/2;
