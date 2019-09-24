@@ -1,4 +1,4 @@
-var num = 3000;
+var num = 200;
 var ax = [];
 var ay = [];
 
