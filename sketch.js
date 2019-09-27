@@ -45,7 +45,7 @@ function draw() {
   translate(x, 0);
   fill(255);
   strokeWeight(2);
-  ellipse(windowWidth/2, windowHeight/5, windowHeight/13, windowHeight/13);
+  ellipse(windowWidth/2, windowHeight/7, windowHeight/13, windowHeight/13);
   
   //pulling up 1000 lines at once
   translate(-x, 0);
@@ -54,9 +54,9 @@ function draw() {
   
     //changing line's color to white and its direction when moon touches it
     if (
-      dist(rainX[i], rainY[i], x+(windowWidth/2), windowHeight/5) < windowHeight/26 
-      || dist(rainX[i], rainY[i]+windowHeight/14, x+(windowWidth/2), windowHeight/5) < windowHeight/26 
-      || dist(rainX[i], rainY[i]+windowHeight/7, x+(windowWidth/2), windowHeight/5) < windowHeight/26
+      dist(rainX[i], rainY[i], x+(windowWidth/2), windowHeight/7) < windowHeight/26 
+      || dist(rainX[i], rainY[i]+windowHeight/14, x+(windowWidth/2), windowHeight/7) < windowHeight/26 
+      || dist(rainX[i], rainY[i]+windowHeight/7, x+(windowWidth/2), windowHeight/7) < windowHeight/26
       ) {
       rainColor[i] = color(255);
       rainY[i] += 8
