@@ -44,7 +44,7 @@ function draw() {
   }
   translate(x, 0);
   fill(255);
-  strokeWeight(2);
+  strokeWeight(3);
   ellipse(windowWidth/2, windowHeight/7, windowHeight/13, windowHeight/13);
   
   //pulling up 1000 lines at once
