@@ -72,8 +72,11 @@ function draw() {
 //how a, s, d changes the mode
 function keyPressed() {
   switch(key) {
-    case 's' : mode = "HALT" ; break ;
     case 'a' : mode = "LEFT" ; break ;
+    case 'A' : mode = "LEFT" ; break ;
+    case 's' : mode = "HALT" ; break ;
+    case 'S' : mode = "HALT" ; break ;
     case 'd' : mode = "RIGHT" ; break ;
+    case 'D' : mode = "RIGHT" ; break ;
   }
 }
