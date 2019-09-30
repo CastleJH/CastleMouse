@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   //mouseX = brightness   mouseY = speed/direction of squares
-  white = map(mouseX, 0, width, 0, 255);
+  white = map(mouseX, 0, width, 255, 0);
   speed = map(mouseY, 0, height, -8, 8);
   
   //transparent background
